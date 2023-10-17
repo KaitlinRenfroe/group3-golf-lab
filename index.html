@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en" >
+<head>
+  <meta charset="UTF-8">
+  <title>golf-group-project</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1"><link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/5.0.0/normalize.min.css">
+<link rel='stylesheet' href='https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.0.2/css/bootstrap.min.css'><link rel="stylesheet" href="./styles/style.css">
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.5.0/font/bootstrap-icons.css">
+
+</head>
+<body>
+<!-- partial:index.partial.html -->
+<div class="row">
+
+    <div id="titleBar" class="p-2 col-md-8 offset-md-2">
+      
+      <div class="row">
+  <div class="offset-md-2 col-md-8 mx-auto text-center">
+
+      <h2>The Game Zone Multiverse</h2>
+      <h4>Welcome, Traveling Gamer.</h4>
+      <h4>So Many Games From So Many Devs!</h4>
+      <h4>Pick And Play!</h4>
+
+        <img id="pacmanpic" src="https://i1.wp.com/unrealitymag.com/wp-content/uploads/2008/11/pacmanft.png?fit=2560%2C1440&ssl=1" alt="Pacman game pic" class="img-fluid mx-auto rounded" width="400" height="100">
+         </div>
+      </div>
+    </div>
+  </div>
+<!--nav bar at top of page-->
+<nav class="navbar navbar-expand-sm bg-dark navbar-dark text-white">
+  <div class="container-fluid">
+    <div class="dropdown">
+      <button class="btn btn-secondary dropdown-toggle" type="button" id ="gameDropDownMenu" data-bs-toggle="dropdown" aria-expanded="false"> 
+        <i class="bi bi-joystick"></i>
+        Games
+      </button>
+        <ul id="somethhere here ritht"class="dropdown-menu dropdown-menu-dark"  aria-labelledby="gameDropDownMenu">
+          <li><a class="dropdown-item" href="#gameRowAlpha">Alpha Games</a></li>
+          <li><hr class="dropdown-divider"></li>
+          <li><a class="dropdown-item" href="#gameRowCharlie">Charlie Games</a></li>
+          <li><hr class="dropdown-divider"></li>
+          <li><a class="dropdown-item" href="#gameRowDelta">Delta Games</a></li>
+          <li><hr class="dropdown-divider"></li>
+          <li><a class="dropdown-item" href="#gameRowEcho">Echo Games</a></li>
+        </ul>
+    </div>
+    <ul class="navbar-nav">
+      <li class="nav-item">
+        <a class="nav-link" href="#"><i class=" bi bi-code-slash"></i> See the Code</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="#"><i class="bi bi-card-checklist"></i> Check this page's validation</a>
+      </li>
+    </ul>
+  </div>
+</nav>
+
+<!--cards-->
+<div class="row" id="gameRowAlpha"></div>
+<div class="row" id="gameRowCharlie"></div>
+<div class="row" id="gameRowDelta"></div>
+<div class="row" id="gameRowEcho"></div>
+
+<!--footer-->
+<div class="mt-5 p-2 bg-dark text-white text-center">
+  <p>Group 3 | Golf Lab | CIS 376-01</p>
+</div>
+
+<!-- partial -->
+<script src='https://cdnjs.cloudflare.com/ajax/libs/jquery/3.7.1/jquery.min.js'></script>
+<script src='https://cdnjs.cloudflare.com/ajax/libs/jqueryui/1.13.2/jquery-ui.min.js'></script>
+<script  src="./scripts/gameData.js"></script>
+<script  src="./scripts/script.js"></script>
+
+</body>
+</html>
