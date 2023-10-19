@@ -9,7 +9,7 @@ $(function () {
         '<p class="card-text">Created by: '+  data.name +'</p>' +
         '<a href="' +
         data.url +
-        ' target="_blank"" class="btn text-white" style="background-color:#ff704d">Time to Play!</a></div> '
+        '" target="_blank" class="btn text-white" style="background-color:#ff704d">Time to Play!</a></div> '
     );
   });
   $.each(charlieGames, function (index, data) {
@@ -21,7 +21,7 @@ $(function () {
         '<p class="card-text">Created by: '+  data.name +'</p>' +
         '<a href="' +
         data.url +
-        ' target="_blank"" class="btn text-white" style="background-color:#ff704d">Time to Play!</a></div> '
+        '" target="_blank" class="btn text-white" style="background-color:#ff704d">Time to Play!</a></div> '
     );
   });
   $.each(deltaGames, function (index, data) {
@@ -33,7 +33,7 @@ $(function () {
         '<p class="card-text">Created by: '+  data.name +'</p>' +
         '<a href="' +
         data.url +
-        ' target="_blank"" class="btn text-white" style="background-color:#ff704d">Time to Play!</a></div> '
+        '" target="_blank" class="btn text-white" style="background-color:#ff704d">Time to Play!</a></div> '
     );
   });
   $.each(echoGames, function (index, data) {
@@ -45,7 +45,7 @@ $(function () {
         '<p class="card-text">Created by: '+  data.name +'</p>' +
         '<a href="' +
         data.url +
-        ' target="_blank"" class="btn text-white" style="background-color:#ff704d">Time to Play!</a></div> '
+        '" target="_blank" class="btn text-white" style="background-color:#ff704d">Time to Play!</a></div> '
     );
   });
 });
